@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: 10px 0;
+    margin-left: auto;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    align-self: center;
+}
+nav img {
+    height: 30px;
+    font-size: 13px;
+}
+div.container {
+    width: 50%;
+    margin: 4rem auto;
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    border-radius: 20px;
+    border: 1px solid rgb(207, 206, 206);
+}
+div.buttons button {
+    margin: 11px 4px;
+    padding: 8px 16px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 2px;
+}
+div.language_options {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+div.language_options span {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+div.language_options a {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+footer{
+    background-color: #f8f9fa;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+}
+div.footer_top p{
+    text-transform: capitalize;
+    color: #0000008a;
+    padding: 16px;
+    margin-left: 25px;
+
+}
+div.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d0d1d3;
+    padding: 20px;
+}
+div.left_nav{
+    margin-left: 15px;
+}
+div.left_nav a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #0000008a;
+    padding: 8px;
+}
+div.middle_link {
+    margin-right: 25px;
+}
+div.middle_link img {
+    height: 15px;
+}
+div.middle_link a {
+    text-transform: capitalize;
+    color: #0000008a;
+    text-decoration: none;
+    padding: 8px;
+}
+
+div.right_nav {
+    margin-right: 15px;
+}
+div.right_nav a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #0000008a;
+    padding: 8px;
+}
+body a:hover {
+    text-decoration: underline;
+}
